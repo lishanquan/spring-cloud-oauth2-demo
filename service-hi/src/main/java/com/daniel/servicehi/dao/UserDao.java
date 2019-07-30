@@ -8,7 +8,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @Date: 2019/7/29 16:11
  */
 public interface UserDao extends JpaRepository<User, Long> {
-
-    User findByUsername(String username);
-
 }
